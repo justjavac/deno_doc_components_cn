@@ -1,25 +1,26 @@
 # deno_doc_components
 
-[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https://deno.land/x/deno_doc_components/mod.ts)
-[![Build Status - Cirrus][]][Build status] [![Twitter handle][]][Twitter badge]
-[![Discord Chat](https://img.shields.io/discord/684898665143206084?logo=discord&style=social)](https://discord.gg/deno)
+[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https://deno.land/x/deno_doc_components_cn/mod.ts)
+[![Build Status - Cirrus][]][Build status]
 
-A set of components used to render [deno_doc](https://deno.land/x/deno_doc)
-[DocNodes](https://doc.deno.land/https://deno.land/x/deno_doc/lib/types.d.ts/~/DocNode).
+一组用于呈现 [deno_doc](https://deno.land/x/deno_doc)
+[DocNodes](https://doc.deno.land/https://deno.land/x/deno_doc/lib/types.d.ts/~/DocNode)
+的组件。
 
-## Showcase
+## 展示
 
-The repository contains a showcase application to see example rendering of the
-components in the `_showcase` directory. It can be run locally using:
+仓库包含一个展示应用程序，用于查看 `_showcase`
+目录中的组件。它可以使用以下方法在本地运行：
 
 ```
 > deno task showcase
 ```
 
-It is also available on
-[deno-doc-components.deno.dev](https://deno-doc-components.deno.dev/).
+也可以直接访问
+[deno-doc-components_cn.deno.dev](https://deno-doc-components_cn.deno.dev)
+在线查看。
 
-## Usage
+## 使用
 
 ### Services
 
@@ -114,5 +115,3 @@ Copyright 2021-2023 the Deno authors. All rights reserved. MIT License.
 
 [Build Status - Cirrus]: https://github.com/denoland/doc_components/workflows/ci/badge.svg?branch=main&event=push
 [Build status]: https://github.com/denoland/doc_components/actions
-[Twitter badge]: https://twitter.com/intent/follow?screen_name=deno_land
-[Twitter handle]: https://img.shields.io/twitter/follow/deno_land.svg?style=social&label=Follow
