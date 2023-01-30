@@ -33,7 +33,7 @@ const entries: Array<HrefEntry | ChildrenEntry> = [
   },
   { href: "https://deno.com/deploy", content: "部署" },
   {
-    content: "Community",
+    content: "社区",
     children: [
       {
         href: "https://discord.gg/deno",
