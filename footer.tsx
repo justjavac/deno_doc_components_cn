@@ -14,16 +14,16 @@ export function Footer() {
 
           <div class="flex flex-col gap-0 divide-incl-y lg:(flex-row gap-16 divide-incl-y-0)">
             <FooterSection
-              title="Why Deno?"
+              title="为什么选择 Deno?"
               entries={{
-                "Develop Locally": "https://deno.land",
-                "Deploy Globally": "https://deno.com/deploy",
-                "Compare to Node.js": "https://deno.land/manual/node",
-                "Benchmarks": "https://deno.land/benchmarks",
+                "本地开发": "https://deno.land",
+                "全局部署": "https://deno.com/deploy",
+                "和 Node.js 对比": "https://deno.land/manual/node",
+                "性能": "https://deno.land/benchmarks",
               }}
             />
             <FooterSection
-              title="Products"
+              title="产品"
               entries={{
                 "Deno CLI": "https://deno.land",
                 "Deno Deploy": "https://deno.com/deploy",
@@ -31,32 +31,32 @@ export function Footer() {
               }}
             />
             <FooterSection
-              title="Sources"
+              title="源码"
               entries={{
-                "CLI Manual": "https://deno.land/manual",
+                "CLI 手册": "https://deno.land/manual",
                 "CLI Runtime API": "https://doc.deno.land/deno/stable",
-                "Deploy Docs": "https://deno.com/deploy/docs",
-                "Standard Library": "https://deno.land/std",
-                "Third-Party Modules": "https://deno.land/x",
+                "Deploy 文档": "https://deno.com/deploy/docs",
+                "标准库": "https://deno.land/std",
+                "第三方模块": "https://deno.land/x",
               }}
             />
             <FooterSection
-              title="Community"
+              title="社区"
               entries={{
-                "Artworks": "https://deno.land/artwork",
-                "Translations": "https://deno.land/translations",
-                "Showcase": "https://deno.land/showcase",
+                "艺术品": "https://deno.land/artwork",
+                "翻译": "https://deno.land/translations",
+                "案例展示": "https://deno.land/showcase",
               }}
             />
             <FooterSection
-              title="Company"
+              title="公司"
               entries={{
-                "Careers": "https://deno.com/jobs",
-                "Blog": "https://deno.com/blog",
-                "Pricing": "https://deno.com/deploy/pricing",
-                "News": "https://deno.news",
+                "职位": "https://deno.com/jobs",
+                "博客": "https://deno.com/blog",
+                "价格": "https://deno.com/deploy/pricing",
+                "新闻": "https://deno.news",
                 "Merch": "https://merch.deno.com",
-                "Privacy Policy": "https://deno.com/deploy/docs/privacy-policy",
+                "隐私策略": "https://deno.com/deploy/docs/privacy-policy",
               }}
             />
           </div>
@@ -72,8 +72,8 @@ export function Footer() {
             />
 
             <span class="text-xs text-[#9CA0AA] leading-tight">
-              Copyright © 2023 Deno Land Inc.{" "}
-              <span class="whitespace-nowrap">All rights reserved.</span>
+              版权所有 © 2023 Deno Land Inc。{" "}
+              <span class="whitespace-nowrap">保留所有权利。</span>
             </span>
 
             <div class="flex gap-3 text-[#6C6E78]">

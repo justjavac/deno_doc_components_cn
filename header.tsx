@@ -17,21 +17,21 @@ interface ChildrenEntry {
 
 const entries: Array<HrefEntry | ChildrenEntry> = [
   {
-    content: "Modules",
+    content: "模块",
     children: [
-      { href: "/std", content: "Standard Library" },
-      { href: "/x", content: "Third Party Modules" },
+      { href: "/std", content: "标准库" },
+      { href: "/x", content: "第三方模块" },
       { href: "/manual/node", content: "NPM" },
     ],
   },
   {
-    content: "Docs",
+    content: "文档",
     children: [
-      { href: "/manual", content: "Manual" },
+      { href: "/manual", content: "手册" },
       { href: "/api", content: "API" },
     ],
   },
-  { href: "https://deno.com/deploy", content: "Deploy" },
+  { href: "https://deno.com/deploy", content: "部署" },
   {
     content: "Community",
     children: [
